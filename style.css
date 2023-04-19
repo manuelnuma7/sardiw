@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
 *{
     box-sizing: content-box;
     margin: 0;
+    font-family: 'Nova Oval', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
 }
 
 footer, main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 100vw;
 }
 iframe{
     width: 60vw;
