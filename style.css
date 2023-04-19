@@ -1,7 +1,25 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
 footer, main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+iframe{
+    width: 60vw;
+}
+.about{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+
+}
+.about p{
+    width: 100vw;
 }
 
 
