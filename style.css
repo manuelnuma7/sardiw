@@ -1,0 +1,16 @@
+footer, main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+@media (max-width: 600px){
+    footer, main{
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+    }
+
+}
